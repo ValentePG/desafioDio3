@@ -20,10 +20,10 @@ public class App {
         cc.imprimirExtrato();
         poupanca.imprimirExtrato();
 
-        Cliente gabriel = new Cliente();
-        gabriel.setNome("Gabriel");
-        ContaBanco cc2 = new ContaCorrente(gabriel);
-        ContaBanco poupanca2 = new ContaPoupanca(gabriel);
+        Cliente gustavo = new Cliente();
+        gustavo.setNome("Gabriel");
+        ContaBanco cc2 = new ContaCorrente(gustavo);
+        ContaBanco poupanca2 = new ContaPoupanca(gustavo);
 
 
 
